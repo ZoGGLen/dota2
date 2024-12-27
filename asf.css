@@ -1,0 +1,38 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px;
+/*без этого не работает*/    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+/*центрирование текста*/
+.tx {
+    text-align: center;
+}
+ /*растояние между кнопок*/
+.nav button { 
+    margin-left: 10px;
+}
+.rsp{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+}
+
+  
